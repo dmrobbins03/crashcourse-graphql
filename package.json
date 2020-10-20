@@ -1,0 +1,22 @@
+{
+  "name": "graphql-crash-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js",
+    "json:server": "json-server --watch data.json"
+  },
+  "author": "David Robbins",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "json-server": "^0.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
